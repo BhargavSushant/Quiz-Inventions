@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:fillViewport="true" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#830083"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taking the Quiz"
+         android:textColor="#830083"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Select an answer for every question. Unanswered questions will be scored as incorrect." />
+
+    <TextView
+        android:id="@+id/textView2"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Types"
+         android:textColor="#830083"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textView4"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Multiple Choice: click the radio button to indicate your choice. Currently, only one answer can be selected for a multiple choice question" />
+
+    <TextView
+        android:id="@+id/textView5"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Click on the Submit button at the bottom of the page to have your answers graded." />
+
+    <TextView
+        android:id="@+id/textView6"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.You will be shown your results, including your score and any feedback offered by the author of the quiz. " />
+
+    <TextView
+        android:id="@+id/textView7"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Each question is preceded by the word Correct or Incorrect  and the answer you gave is shown" />
+
+    <TextView
+        android:id="@+id/textView8"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.The author of the quiz may have helpful comments for each question. Be sure to check for this feedback. " />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review Quiz"
+        android:textColor="#830083"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textView9"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.You can review the Quiz after Completion.Find out the Right Answers" />
+  <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronometer"
+        android:textColor="#830083"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  <TextView
+        android:id="@+id/textView9"
+         android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.A Chronometer(Stopwatch) is Available at Top of Each Quiz Which Will Keep ticking Throughout Your Quiz " />
+  
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#830083"
+        android:text="Developed By HariBabloo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+</ScrollView>

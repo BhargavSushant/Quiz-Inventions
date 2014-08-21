@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+       
+        android:src="@drawable/inst" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hi I am Hari Babloo . Hope You Enjoyed Using My App. I Would Like to Receive your FeedBack Through Mail or Facebook or At My Blog"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="#830083"
+        android:drawableLeft="@drawable/fb"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Android Hari"
+        android:textColor="#ffff" />
+      <Button
+           android:id="@+id/btn2"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+       android:layout_gravity="right"
+        android:background="#830083"
+        android:drawableLeft="@drawable/mail"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="#ffff" />
+        <Button
+             android:id="@+id/btn3"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="#830083"
+        android:drawableLeft="@drawable/bg"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Blog"
+        android:textColor="#ffff" />
+      
+
+</LinearLayout>
